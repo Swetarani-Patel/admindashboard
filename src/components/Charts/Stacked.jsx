@@ -17,6 +17,7 @@ import {
 
 function Stacked({ width, height }) {
   return (
+    <div>
     <ChartComponent
       width={width}
       height={height}
@@ -34,6 +35,7 @@ function Stacked({ width, height }) {
         ))}
       </SeriesCollectionDirective>
     </ChartComponent>
+    </div>
   );
 }
 
